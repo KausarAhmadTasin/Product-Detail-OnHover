@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* all products section */
+.all-products {
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* primary content styles */
+.primary-content img {
+    border-radius: 50%;
+}
+
+button:hover {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+}
+
+.primary-content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 3px solid rgb(80, 64, 43); */
+    box-shadow: 3px 4px 8px #0000005e;
+    position: relative;
+}
+
+/* On hover */
+.primary-content:hover .hover-content {
+    visibility: visible;
+    opacity: .9;
+}
+
+
+.primary.image {
+    position: relative;
+    left: 25px;
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-detail {
+    background-color:rgb(80, 64, 43);
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* hover content styles */
+.hover-content {
+    background-color: rgb(80, 64, 43);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px;
+    visibility: hidden;
+
+}
+
+.hover-content hr , .hover-content p {
+    margin-bottom: 20px;
+
+}
+
+.hover-content button {
+    color: rgb(80, 64, 43);
+    background-color: rgb(254,251,234);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    left: 165px;
+    margin-top: 7px;
+}
